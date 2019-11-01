@@ -6,7 +6,7 @@ const Ghost = (props) => {
 
   return(
     <div>
-      <img src={ghost} alt="" onClick={() => selectGhost(ghost)}/>
+      <img src={ghost} alt="" onClick={() => selectGhost(props.gname)}/>
     </div>
   );
 };

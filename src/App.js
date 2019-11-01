@@ -31,9 +31,9 @@ selectGhost = (ghostName) => {
           <div>{this.state.selectedGhost}</div>
         </div>
         <div className="ghost-list">
-        <Ghost ghost={ghost1} selectGhost={this.selectGhost}/>
-        <Ghost ghost={casper} selectGhost={this.selectGhost}/>
-        <Ghost ghost={marshmallowghost} selectGhost={this.selectGhost}/>
+        <Ghost ghost={ghost1} gname={'spooky ghost'} selectGhost={this.selectGhost}/>
+        <Ghost ghost={casper} gname={'casper1'} selectGhost={this.selectGhost}/>
+        <Ghost ghost={marshmallowghost} gname={'mashmallow ghost'} selectGhost={this.selectGhost}/>
         </div>
       </div>
     )
